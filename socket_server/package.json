@@ -1,0 +1,16 @@
+{
+  "name": "socket_server",
+  "version": "1.0.0",
+  "description": "socket server for xevchess",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "xev",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3"
+  }
+}
